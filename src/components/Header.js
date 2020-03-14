@@ -29,7 +29,7 @@ export default function ButtonAppBar() {
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            Infosys
+            **********
           </Typography>
           <Button color="inherit">Login</Button>
         </Toolbar>
