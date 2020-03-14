@@ -56,10 +56,7 @@ export default function LayoutTextFields() {
   const [link, setLink] = useState('')
   const [open, setOpen] = useState(false);
   const [copied, setCopied] = useState(false);
-
-
- 
-
+  
   const handleClose = () => {
     setOpen(false);
   };
@@ -73,9 +70,7 @@ export default function LayoutTextFields() {
   const handleCopy = () =>{
       setCopied(true)
   }
-
   
-      
   const handleClick=()=>{
       setCopied(false)
     const data= {
