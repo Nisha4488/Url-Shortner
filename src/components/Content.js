@@ -39,7 +39,8 @@ const useStyles = makeStyles(theme => ({
   },
   paper: {
     position: 'absolute',
-    width: 400,
+    width: 300,
+
     backgroundColor: theme.palette.background.paper,
     border: '2px solid #000',
     boxShadow: theme.shadows[5],
@@ -105,9 +106,8 @@ console.log({val: link})
           id="outlined-full-width"
           value={url}  
           onChange={handleChange}
-          style={{ margin: 100}}
+          style={{ margin: 150}}
           placeholder="Enter url"
-          
           fullWidth
           margin="normal"
           InputLabelProps={{
@@ -144,7 +144,7 @@ console.log({val: link})
       
       </CopyToClipboard>
     
-      {copied ? <span style={{color: 'red', padding: 25}}>Copied.</span> : null}
+      {copied ? <span style={{color: 'red', padding: 25, fontWeight: 'bold'}}>Copied</span> : null}
         </div>
         
       </Modal>  
